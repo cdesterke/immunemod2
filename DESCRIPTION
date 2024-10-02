@@ -1,0 +1,16 @@
+Package: immunemod2
+Type: Package
+Title: this package allows to compute expression scores according distinct classes of
+        molecules implicated immune modulation
+Version: 2.0.0
+Author: Christophe Desterke
+Maintainer: The package maintainer <christophe.desterke@gmail.com>
+Description: this package allows to compute expression scores according distinct classes of
+        molecules implicated immune modulation. Some distinct graph output could be done.
+        The package contains expression data as example
+        for the analyses. Designed for bioconductor from version 3.18
+Imports: dplyr, ggplot2, tidyr, limma, GSVA
+License: GNU
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
