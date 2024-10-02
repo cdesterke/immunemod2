@@ -23,7 +23,7 @@ data(data)
 data(phenotype)
 data(im)
 res<-imenrich(data,im,method="zscore")
-head(res[,1:6])
+head(res[,1:4])
 ```
 ![res](https://github.com/cdesterke/immunemod2/blob/main/imenrich.png)
 
@@ -69,7 +69,7 @@ data(phenotype)
 data(im)
 res<-imenrich(data,im,method="plage")
 imdes.results<-imdes(res,phenotype$group,control="low")
-imvol(imdes.results,nb=9,fc=0,p=0.05,size=4,alpha=1)
+imvol(imdes.results,nb=9,fc=0.5,p=0.05,size=4,alpha=1)
 ```
 ![res](https://github.com/cdesterke/immunemod2/blob/main/volcano.png)
 
